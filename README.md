@@ -1,4 +1,4 @@
-<h2>Predicting Interstellar dust using Gaussian misture modelling
+<h2>Predicting Interstellar dust using Gaussian misture modelling</h2>
 
 
 This code is used to predict interstellar dust structures using data from Planck, WISE and CFHT. 
@@ -17,7 +17,10 @@ The data consists of data you want to use to predict the dust structures (x) and
 For features where there is a large difference between the low and high intensity pixels (~100x difference) you can use a Logarithmic scaling to make sure the model also learns the faint features and is less biased towards the high intensity features.
 
 3. Load or fit the model:
-You can use one of the pre-trained models found in "./models/". Make sure that the pre-trained models use the same data and scaling as in training. The available models are:
+You can use one of the pre-trained models found in "./models/". Make sure that the pre-trained models use the same data and scaling as in training. 
+
+
+The available models are:
 
 - "planck_n3_full_sky" : A model trained on the full planck sky used to predict the Planck 857 GHz data. Input data: Planck 100 GHz, 143 GHz, 217 GHz, 353 GHz,
 and 545 GHz data (can be found at: https://irsa.ipac.caltech.edu/data/Planck/release_3/all-sky-maps/). Uses logarithmic scaling.
