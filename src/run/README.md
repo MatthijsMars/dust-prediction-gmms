@@ -7,6 +7,7 @@ The GMM is an adaptation of the Scikit-learn model and can be found in "./src/mo
 
 An example script of using the model can be found in "./src/run/example_run.py"
 
+The requirements for running the scripts can be found in the "./requirements.txt" file
 
 The steps to using this code are:
 
